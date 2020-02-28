@@ -9,26 +9,23 @@
 <body>
     <header>
         <h1>Опитування</h1>
-        <nav>
-            <a href="index.html">На головну</a>
-        </nav>
     </header>
     <main>
         <form action="https://formspree.io/moqwwnew" method="POST">
             <label>
             Ваше ім'я:
             <br>
-            <input type="text" name="client-name" placeholder="Ваше ім'я:" required>
+            <input type="text" name="client-name" placeholder="Ім'я" required>
             </label>
             <br>
             <label>
             Ваш вік:
             <br>
-            <input type="age" name="age" placeholder="Ваш вік:" required>
+            <input type="text" name="age" placeholder="Вік" required>
             </label>
             <br>
             <label>Ваша стать:</label>
-            <select id="gender" name="gender">Ваша стать:
+            <select id="gender" name="gender">
                 <option>Чоловіча</option>
                 <option>Жіноча</option>
                 <option>Не розумію питання</option>
@@ -96,7 +93,7 @@
             </label>
             <br>
             <label>
-                <textarea type="text" name="why" placeholder="Чому саме ця порода?" cols="30" rows="10"></textarea>
+                <textarea name="why" placeholder="Чому саме ця порода?" cols="30" rows="10"></textarea>
             </label>
             <br>
             <br>
@@ -104,5 +101,11 @@
             <input type="reset" value="Видалити">
         </form>
     </main>
+    <br><br>
+    <footer>
+    <nav>
+            <a href="index.html">На головну</a>
+    </nav>
+    </footer>
 </body>
 </html>
